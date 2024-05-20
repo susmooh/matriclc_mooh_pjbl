@@ -178,22 +178,8 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 600px) {
   .matrixcalc {
     margin-top: 10px;
-    margin: 10 auto;
+    margin: 0 auto;
     width: 100%;
-  }
-  
-  .input-containers {
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  
-  .matrix-container {
-    margin-top: 20px;
-    width: 100%;
-  }
-  
-  button {
-    height: 40px;
   }
 
   footer {
