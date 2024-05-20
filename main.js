@@ -217,7 +217,7 @@ function generateOperationButtons() {
     const determinantValue = determinant(matrixValues);
   
     if (determinantValue === 0) {
-      alert('The matrix is singular and cannot be inverted.');
+      alert('Matrix merupakan singular dan tidak dapat dilakukan operasi invers.');
       return;
     }
   
