@@ -191,9 +191,9 @@ footer {
     margin-bottom: 20px;
   }
   .matrixcalc {
-    margin-top: 20px;
     margin: 0 auto;
-    width: 80%;
+    margin-top: 20px;
+    width: 100%;
   }
 
   .row-label {
