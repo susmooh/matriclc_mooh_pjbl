@@ -208,4 +208,16 @@ footer {
     box-sizing: border-box;
     width: 100%; /* adjust the width to fit the screen */
   }
+
+  .input-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .footer {
+    opacity: 0;
+  }
 }
