@@ -212,4 +212,16 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
+  #operation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #operation button {
+    margin-bottom: 10px;
+  }
 }
