@@ -186,15 +186,6 @@ footer {
 }
 
 @media screen and (max-width: 600px){
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-
   .judul {
     width: 100%;
     margin-bottom: 20px;
@@ -205,13 +196,22 @@ footer {
   }
 
   .matrixcalc {
-    margin: 0 auto;
-    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background: linear-gradient(90deg, rgba(50,16,55,1) 0%, rgba(18,49,59,1) 35%, rgba(17,59,38,1) 62%, rgba(71,53,19,1) 100%);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .matrix-input-field {
+    width: 100%;
   }
 
   #operation {
@@ -230,6 +230,6 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0;
+    width: 100%;
   }
 }
