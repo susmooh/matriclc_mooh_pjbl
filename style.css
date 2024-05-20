@@ -189,4 +189,8 @@ body::-webkit-scrollbar {
     justify-content: center;
     gap: 5px;
   }
+
+  .matrixcalc {
+    width: 100%;
+  }
 }
