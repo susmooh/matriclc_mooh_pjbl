@@ -174,3 +174,18 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(0deg, rgba(230,78,255,1) 0%, rgba(80,210,255,1) 35%, rgba(246,181,59,1) 100%);
 }
+
+.wave {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px){
+  .judul {
+    width: 100%;
+  }
+  .matrixcalc {
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 50%;
+  }
+}
