@@ -179,6 +179,12 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 @media screen and (max-width: 600px){
   .judul {
     width: 100%;
