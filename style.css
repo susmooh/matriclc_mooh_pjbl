@@ -188,10 +188,19 @@ footer {
 @media screen and (max-width: 600px){
   .judul {
     width: 100%;
+    margin-bottom: 20px;
   }
   .matrixcalc {
     margin-top: 20px;
     margin: 0 auto;
+    width: 80%;
+  }
+
+  .row-label {
+    width: 50%;
+  }
+
+  .column-label {
     width: 50%;
   }
 }
