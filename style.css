@@ -175,16 +175,18 @@ body::-webkit-scrollbar {
     background: linear-gradient(0deg, rgba(230,78,255,1) 0%, rgba(80,210,255,1) 35%, rgba(246,181,59,1) 100%);
 }
 
-footer {
-  width:100%;
-  min-height: 200px;
-}
-
 @media screen and (max-width: 600px) {
   * {
     margin:auto;
     justify-content: center;
     align-items: center;
-    
+  }
+
+  #operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
   }
 }
