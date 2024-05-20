@@ -177,8 +177,9 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 600px) {
   .matrixcalc {
-    margin: 0 auto;
-    width: 90%;
+    margin-top: 10px;
+    margin: 10 auto;
+    width: 100%;
   }
   
   .input-containers {
@@ -191,17 +192,11 @@ body::-webkit-scrollbar {
     width: 100%;
   }
   
-  .matrix-input-field {
-    width: calc(100% / var(--columns));
-    height: calc(100% / var(--rows));
-    margin: 5px;
-  }
-  
-  #sizeA, #sizeB {
-    height: 30px;
-  }
-  
   button {
     height: 40px;
+  }
+
+  footer {
+    opacity: 0%;;
   }
 }
