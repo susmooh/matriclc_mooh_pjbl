@@ -176,21 +176,32 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 600px) {
-  * {
-    margin:auto;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #operation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-  }
-
   .matrixcalc {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .input-containers {
+    margin-bottom: 10px;
     width: 100%;
+  }
+  
+  .matrix-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .matrix-input-field {
+    width: calc(100% / var(--columns));
+    height: calc(100% / var(--rows));
+    margin: 5px;
+  }
+  
+  #sizeA, #sizeB {
+    height: 30px;
+  }
+  
+  button {
+    height: 40px;
   }
 }
