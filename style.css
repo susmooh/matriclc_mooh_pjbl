@@ -206,47 +206,6 @@ footer {
     background: linear-gradient(90deg, rgba(50,16,55,1) 0%, rgba(18,49,59,1) 35%, rgba(17,59,38,1) 62%, rgba(71,53,19,1) 100%);
     padding: 10px;
     box-sizing: border-box;
-    width: 80%; /* adjust the width to fit the screen */
-  }
-  
-  .input-containers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .matrix-container {
-    display: grid;
-    grid-template-columns: repeat(var(--columns), 1fr);
-    grid-template-rows: repeat(var(--rows), 1fr);
-    margin-top: 20px;
-  }
-  
-  .matrix-input-field {
-    width: calc(100% / var(--columns));
-    height: calc(100% / var(--rows));
-    margin: 5px;
-  }
-  
-  #sizeA, #sizeB {
-    height: 20px;
-  }
-  
-  button {
-    height: 30px;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid white;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 0;
-    background: linear-gradient(90deg, rgba(50,16,55,1) 0%, rgba(18,49,59,1) 35%, rgba(17,59,38,1) 62%, rgba(71,53,19,1) 100%);
+    width: 100%; /* adjust the width to fit the screen */
   }
 }
