@@ -4,7 +4,10 @@
 }
 
 body {
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(17,13,13,1) 100%);
+  background-image: url("assets/bro.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -224,6 +227,10 @@ footer {
     margin-bottom: 20px;
   }
 
+  #sizeA,#sizeB {
+    width: 100%;
+  }
+
   #operation button {
     margin-bottom: 10px;
   }
@@ -233,5 +240,9 @@ footer {
     right: 0;
     bottom: 0;
     width: 100%;
+  }
+
+  body {
+    background-color: #000000;
   }
 }

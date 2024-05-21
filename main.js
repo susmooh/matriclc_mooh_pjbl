@@ -141,6 +141,7 @@ function generateOperationButtons() {
     resultText.style.marginTop = "0px"
     resultContainer.style.border = "1px solid white"
     resultContainer.style.marginTop = "50px"
+    resultContainer.style.background = "black"
   
     // Clear the existing content of resultContainer
     while (resultContainer.firstChild) {
@@ -171,6 +172,7 @@ function generateOperationButtons() {
     resultText.style.marginTop = "0px";
     resultText.style.textAlign = "center";
     resultContainer.style.marginTop = "50px"
+    
 
 
     console.log(resultText);
@@ -187,6 +189,7 @@ function generateOperationButtons() {
       resultContainer.appendChild(row);
       resultContainer.style.border = "solid 1px white"
       resultContainer.style.borderRadius = "5px"
+      resultContainer.style.background = "black"
 
 
   
@@ -226,6 +229,7 @@ function generateOperationButtons() {
     const resultContainer = document.getElementById('result');
   
     resultContainer.style.marginTop = "50px"
+    resultContainer.style.background = "black"
   
     if (!resultContainer) {
       console.error('Result container not found');
