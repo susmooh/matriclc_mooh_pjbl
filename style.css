@@ -4,12 +4,11 @@
 }
 
 body {
-  background-image: url("assets/bro.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  height: 100%;
+  background: rgb(0,0,0);
+  background: -moz-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(57,10,73,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(57,10,73,1) 100%);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(57,10,73,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#390a49",GradientType=1);
 }
 
 h1 {
